@@ -44,7 +44,7 @@ bot.command('addtochats', async (ctx) => {
 
 bot.command('leaverequest', async (ctx) => {
     await ctx.reply(seackLeave, Markup.inlineKeyboard([
-        [Markup.button.webApp('Open CRM', 'https://benevolent-biscuit-aa5e51.netlify.app/')],
+        [Markup.button.webApp('Open CRM', 'https://crmbot.axcap.ae/workflow/')],
     ]))
 })
 
