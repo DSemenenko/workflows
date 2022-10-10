@@ -4,6 +4,9 @@ import "./Form.css"
 import Axios from 'axios';
 
 
+const tele = window.Telegram.WebApp;
+const chatIdTelegram = tele.initDataUnsafe.user.id;
+console.log('Telegram ID.......', chatIdTelegram);
 
 const Form = () => {
     const { register, handleSubmit, watch, reset, formState: { errors } } = useForm();

@@ -44,7 +44,7 @@ bot.command('addtochats', async (ctx) => {
 
 bot.command('leaverequest', async (ctx) => {
     await ctx.reply(seackLeave, Markup.inlineKeyboard([
-        [Markup.button.webApp('Open CRM', 'https://crmbot.axcap.ae/workflow/')],
+        [Markup.button.webApp('Open CRM', 'https://workflow.axcap.ae/')],
     ]))
 })
 
